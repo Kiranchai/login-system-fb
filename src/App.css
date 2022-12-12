@@ -1,0 +1,22 @@
+.home-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #44475a;
+}
+.feed-list{
+    list-style: none;
+}
+.feed-item{
+    margin: 1rem;
+    background-color: rgb(20, 123, 207);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+}
